@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/formulario.css">
+  <link rel="stylesheet" href="assets/css/stylenav.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="icon" href="assets/images/startse-icon.png">    
+  <title>Formação StartSe</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="assets/images/startse_logo.png" />
+      <div class="menu-section">
+          <div class="container-menu">
+              <input type="checkbox" id="checkbox-menu"/>
+              <label class= "menu-button-container" for="checkbox-menu">
+                 <span></span>
+                 <span></span> 
+                 <span></span>  
+              </label>
+              <nav>
+                  <ul class="menu">
+                     <li><a href="#banner">Home</a></li>
+                     <li><a href="#course-content">Sobre</a></li>
+                     <li><a href="#fomulario">Formulário</a></li>
+                  </ul>
+              </nav>
+          </div>
+        </div>
+    </div>        
+  </header>
+  <div class="banner">    
+    <div class="banner-content">
+      <div class="logo">        
+        <img class="jss83" src="https://startse-uploader.s3.us-east-2.amazonaws.com/prod/squads/course/6265c29fe3d84d7845d9503f/banner.png?v=b92440ad-88af-4cb9-b60a-f53239c8f2f6">        
+      </div>
+      <h1>Formação gratuita da StartSe</h1>
+      <p>Reunimos aulas e conteúdos exclusivos para você aprender o que há de mais atual no mercado, para se capacitar, entender as transformações do mundo e reinventar seu negócio!</p>
+      <button><a href="#fomulario">Quero me inscrever</a></button>
+    </div>
+  </div>
+  <main>
+    <section id="course-content">
+      <h2>O que vou aprender?</h2>
+      <p>
+        Temos 11 módulos recheados de conteúdos para que você aprenda a 
+        desenvolver sites e aplicações profissionais.
+      </p>
+      <div class="modules-list">
+        <div class="module">
+          <span>Módulo I:</span> Introdução, Sistemas e Aplicações
+        </div>
+        <div class="module">
+          <span>Módulo II:</span> Linguagens de Programação
+        </div>
+        <div class="module">
+          <span>Módulo III:</span> HTML e Elementos
+        </div>
+        <div class="module">
+          <span>Módulo IV E V:</span> CSS
+        </div>
+        <div class="module">
+          <span>Módulo VI:</span> Introdução ao Git
+        </div>
+        <div class="module">
+          <span>Módulo VII:</span> JavaScript
+        </div>
+        <div class="module">
+          <span>Módulo VIII:</span> HTML Semântico e FlexBox
+        </div>
+        <div class="module">
+          <span>Módulo IX:</span> Programação Orientada a Objetos
+        </div>
+        <div class="module">
+          <span>Módulo X:</span> NodeJs
+        </div>
+        <div class="module">
+          <span>Módulo XI:</span> SQL
+        </div>
+      </div>      
+    </section>
+    <small id="voltar"><a href="">Voltar</a></small> 
+    <section id="transform-world">
+      <p>FAÇA A DIFERENÇA COM A GENTE</p>
+    </section>
+    <section id="fomulario">
+      <h2 id="titulo">Faça o seu cadastro:</h2>      
+      
+      <form>
+        <div id="formulario" class="campo">
+           <label for="nome"><strong>Nome Completo:</strong></label>
+           <input type="text" name="nome" id="nome" size="40" required>
+        </div>
+            
+        <div class="campo">
+          <label for="email"><strong>Email:</strong></label>
+          <input type="email" name="email" id="email" size="40" required>
+        </div>  
+
+        <div class="campo">
+          <label><strong>Qual a aplicação que você desenvolve?</strong></label>
+          <label>
+              <input type="radio" name="devweb" value="front-end" checked> Front-end
+          </label> 
+
+          <label>
+              <input type="radio" name="devweb" value="back-end"> Back-end
+          </label>
+
+          <label>
+              <input type="radio" name="devweb" value="fullstack"> Fullstack
+          </label> 
+        </div>
+        <div class="campo">
+          <label for="senioridade"><strong>Senioridade:</strong></label>
+          <select id="senioridade">
+              <option select disable value="">Selecione</option>
+              <option>Júnior</option>
+              <option>Pleno</option>
+              <option>Senior</option>
+          </select>
+         </div>
+        <fieldset class="grupo">
+          <div id="check">
+            <label><strong>Selecione as tecnologias que utiliza:</strong></label><br><br>
+            <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+            <label for="tecnologia1"> HTML</label>
+            <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+            <label for="tecnologia2"> CSS</label>
+            <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+            <label for="tecnologia3"> JavaScript</label>
+            <input type="checkbox" id="tecnologia4" name="tecnologia4" value="NodeJs">
+            <label for="tecnologia4"> NodeJs</label>
+            <input type="checkbox" id="tecnologia5" name="tecnologia5" value="SQL">
+            <label for="tecnologia5"> SQL</label>          
+         </div>
+        </fieldset>    
+        <button class="botao" type="submit" onsubmit="">Concluído</button>
+      </form>       
+    </section>     
+  </main>
+  <small id="voltar"><a href="">Voltar</a></small> 
+  <footer class="logo">
+    <svg xmlns="http://www.w3.org/2000/svg" width="127.283" height="17.876" viewBox="0 0 127.283 17.876"><defs><style>.a{fill:#0080ed}</style></defs><g transform="translate(104.938)"><circle class="a" cx=".894" cy=".894" r=".894"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(1.788 16.088)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(4.469)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(4.469 2.681)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(4.469 13.407)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(4.469 16.088)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15 2.681)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15 5.363)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15 10.726)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15 13.407)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(7.15 16.088)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 2.681)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 5.363)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 8.044)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 10.726)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 13.407)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(9.832 16.088)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 2.681)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 5.363)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 8.044)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 10.726)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 13.407)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(12.513 16.088)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(15.195 2.681)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="rotate(-13.282 31.521 -61.677)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(15.195 8.044)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(15.195 10.726)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(15.195 13.407)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(17.876 5.363)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="rotate(-9.217 59.73 -105.965)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="rotate(-13.34 55.891 -70.37)"></circle><circle class="a" cx=".894" cy=".894" r=".894" transform="translate(20.557 8.044)"></circle></g><circle class="a" cx="2.227" cy="2.227" r="2.227" transform="translate(0 13.421)"></circle><path class="a" d="M18.524 7.261l-1.058-.156c-2.025-.3-3.7-.643-3.7-1.752s1.33-1.822 3.389-1.822a10.727 10.727 0 0 1 4.784 1.175l.021.01a.7.7 0 0 0 .916-.2c.289-.39.55-.813.8-1.223.126-.205.253-.41.382-.61a.8.8 0 0 0 .147-.63.758.758 0 0 0-.375-.456A14.515 14.515 0 0 0 17.072.044a9.915 9.915 0 0 0-5.35 1.384 4.794 4.794 0 0 0-2.33 4.144c0 2.81 1.928 4.449 5.9 5.01l1.191.168c2.47.352 3.808.739 3.808 1.776 0 1.1-1.4 1.834-3.483 1.834a10.668 10.668 0 0 1-5.393-1.47.756.756 0 0 0-1.027.126c-.261.315-1.319 1.8-1.4 1.981a.726.726 0 0 0 .277.933 14.671 14.671 0 0 0 7.533 1.908 10.292 10.292 0 0 0 5.464-1.379 4.918 4.918 0 0 0 2.417-4.293c-.007-2.656-2.076-4.305-6.155-4.905zM79.06 7.261l-1.058-.156c-2.025-.3-3.7-.643-3.7-1.752s1.331-1.822 3.388-1.822a10.727 10.727 0 0 1 4.785 1.175l.021.01a.7.7 0 0 0 .915-.2c.289-.39.55-.813.8-1.222.126-.205.253-.41.383-.611a.8.8 0 0 0 .146-.63.751.751 0 0 0-.375-.456A14.511 14.511 0 0 0 77.607.044a9.913 9.913 0 0 0-5.35 1.384 4.794 4.794 0 0 0-2.33 4.144c0 2.81 1.928 4.449 5.9 5.01l1.192.168c2.469.352 3.807.739 3.807 1.776 0 1.1-1.4 1.834-3.483 1.834a10.668 10.668 0 0 1-5.393-1.47.755.755 0 0 0-1.027.126c-.262.315-1.319 1.8-1.4 1.981a.726.726 0 0 0 .278.933 14.671 14.671 0 0 0 7.533 1.908 10.29 10.29 0 0 0 5.464-1.379 4.918 4.918 0 0 0 2.417-4.293c-.009-2.656-2.075-4.305-6.155-4.905zM95.881 3.752a9.28 9.28 0 0 0-2.5-.32 6.9 6.9 0 0 0-7.4 7.134c0 4.484 2.933 7.269 7.653 7.269a9.024 9.024 0 0 0 5.441-1.732.852.852 0 0 0 .291-.584.767.767 0 0 0-.268-.563l-1.242-1.2a.728.728 0 0 0-.6-.208 1.208 1.208 0 0 0-.489.2l-.1.058a6.369 6.369 0 0 1-2.978.761c-2.156 0-3.651-.995-3.941-2.608h9.974a.748.748 0 0 0 .749-.707c.008-.141.018-.554.018-.625a7.828 7.828 0 0 0-1.228-4.561 5.987 5.987 0 0 0-3.38-2.314zm1.025 5.224h-7.083a3.558 3.558 0 0 1 3.668-2.363c1.923-.001 3.158.858 3.415 2.363zM32.907 14.005a5.144 5.144 0 0 0-.548.052l-.512.055a6.527 6.527 0 0 1-1.385.025.681.681 0 0 1-.548-.293 1.236 1.236 0 0 1-.128-.639l-.01-6.265h3.047a.763.763 0 0 0 .761-.762V4.362a.726.726 0 0 0-.016-.154.762.762 0 0 0-.745-.609h-3.02V.967a.762.762 0 0 0-.761-.761.792.792 0 0 0-.375.1l-2.364 1.379a.741.741 0 0 0-.352.64v11.477a3.411 3.411 0 0 0 3.462 3.82q.42.04.865.04c.342 0 .694-.018 1.053-.053a8.123 8.123 0 0 0 1.773-.31.749.749 0 0 0 .56-.7v-1.826a.763.763 0 0 0-.757-.768zM47.803 3.592h-2.287a.769.769 0 0 0-.768.768v.063a5.936 5.936 0 0 0-3.351-.991h-.087a7.692 7.692 0 0 0-5.169 1.767 7.087 7.087 0 0 0-2.163 5.45 7.262 7.262 0 0 0 2.09 5.363 7.4 7.4 0 0 0 5.083 1.8h.165a6.566 6.566 0 0 0 3.432-1.093v.17a.769.769 0 0 0 .768.768h2.287a.769.769 0 0 0 .769-.768V4.361a.769.769 0 0 0-.769-.769zm-3.055 6.99v2.331a3.769 3.769 0 1 1 0-4.663zM67.762 14.005a5.133 5.133 0 0 0-.548.052l-.512.055a6.527 6.527 0 0 1-1.385.025.682.682 0 0 1-.548-.293 1.239 1.239 0 0 1-.129-.639l-.01-6.265h3.046a.763.763 0 0 0 .762-.762V4.362a.766.766 0 0 0-.761-.762h-3.019V.968a.762.762 0 0 0-.761-.761.792.792 0 0 0-.375.1l-2.364 1.379a.741.741 0 0 0-.352.64v1.266l-2.381.007a5.364 5.364 0 0 0-3.692 1.238 4.065 4.065 0 0 0-.553.6v-1.08a.769.769 0 0 0-.768-.768h-2.288a.769.769 0 0 0-.768.768v12.527a.769.769 0 0 0 .768.768h2.288a.769.769 0 0 0 .768-.768v-3.013-1.28-2.56a2.954 2.954 0 0 1 .3-1.35c.824-1.595 3.033-1.767 3.944-1.767h2.382v6.884a3.41 3.41 0 0 0 3.462 3.82q.419.04.865.04.513 0 1.053-.053a8.125 8.125 0 0 0 1.773-.31.75.75 0 0 0 .56-.7v-1.826a.763.763 0 0 0-.757-.764zM60.806 2.327z"></path></svg><br><br>
+    <p><span class="contato">(11) 5039-5602 </span>- Atendimento exclusivo telefônico</p>
+    <p><span class="contato">(11) 97244-8378 </span> - Atendimento exclusivo WhatsApp</p>
+    <p><span class="contato">E-MAILS:</span> atendimento@startse.com | dpo@startse.com</p> 
+  </footer>
+</body>
+</html>
